@@ -79,3 +79,19 @@
   background-color: transparent;
   transition: 0.7s ease-in-out;
 }
+
+.rahbariyat-box {
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.card {
+  &-title {
+    font-size: 25px;
+  }
+  &-img {
+    width: 300px;
+  }
+}

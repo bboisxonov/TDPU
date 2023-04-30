@@ -1,0 +1,28 @@
+.togarak {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1350px;
+  margin: 80px auto;
+  &-title {
+    font-size: 30px;
+    color: #422e59;
+  }
+  &-desc {
+    font-size: 15px;
+    line-height: 1.7;
+    font-family: serif;
+  }
+  &-left {
+  }
+
+  &-right {
+    margin: 10px 0;
+    width: 670px;
+    height: fit-content;
+  }
+  &-img {
+    width: 600px;
+    border-radius: 50px;
+  }
+}
